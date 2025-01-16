@@ -1,25 +1,24 @@
-
-  body {
+body {
     margin: 0;
     height: 100vh;
     overflow: hidden;
-    background-image: url('https://img.freepik.com/premium-photo/mint-green-white-background-vector-presentation-design-modern-technology-business-concept-banner_941600-213526.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    position: relative; 
-  }
-  
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2021/03/Pixel-Art-Background-Wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
-  #gif-container {
+#gif-container {
     position: absolute;
     left: 0;
-    top: 0; 
-    transition: left 0.2s, top 0.2s; 
-  }
-  
-  
-  #gif {
+    top: 0;
+    transition: left 3s linear, top 3s linear;  
+}
+
+#gif {
     width: 100px; 
     height: auto;
-  }
+    transform-origin: center; 
+}
+
   
